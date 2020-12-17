@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/wallpaper2.jpg");
+  background-repeat: repeat;
+  left:0;right:0;
+  min-height: 2000px;
+  z-index: -10;
+}
+
+#collage-main {
+  position: absolute;
+  display:block;
+  height:800px;
+}
+
+#chair {
+  filter: sepia(.3);
+  position: fixed;
+  top: 285px; right: 5%;
+  height:300px;
+  z-index: 7;
+}
+
+#harriet {
+  filter: sepia(.3);
+  position: fixed;
+  height: 400px;
+  top:150px; right: 35%;
+  z-index: 6;
+}
+
+#girl_a{
+  filter: sepia(.3);
+  position: fixed;
+  height:400px;
+  top:265px; left: 17%;
+  z-index: 10;
+}
+
+#glove_b{
+  filter: sepia(.3);
+  position: fixed;
+  height: 350px;
+  top:70px; right:5%;
+  z-index: 2;
+}
+
+#hats{
+  filter: sepia(.3);
+  position: fixed;
+  height: 300px;
+  top:50px; left: 5%;
+}
+
+#dress {
+  filter: sepia(.3);
+  position: fixed;
+  height: 300px;
+  top:150px;
+  left:25%;
+  z-index: 5;
+}
+
+#shoes {
+  position: fixed;
+  height: 250px;
+  top: 390px; left: 3%;
+}
+
+#earring {
+  filter: sepia(.3);
+  position:fixed;
+  height:150px;
+  top: 500px;
+  right: 3%;
+  z-index: 8;
+}
+
+#dress_a{
+  filter: sepia(.3);
+  position:fixed;
+  height:350px;
+  top:350px;
+  left:63%;
+  z-index: 9;
+}
+
+#vinyl {
+  filter: sepia(.3);
+  position: fixed;
+  height:100px;
+  top:350px; right:37%;
+  z-index: 10;
+}
+
+#vase {
+  filter: sepia(.3);
+  position: fixed;
+  height: 300px;
+  top: 300px;
+  left:35%;
+  z-index: 8;
+}
+
+#plate{
+  filter: sepia(.3);
+  position: fixed;
+  top: 20px; left:60%;
+  z-index: 1;
+  height: 150px;
+}
+
+#jimmi {
+  filter: sepia(.3);
+  height: 200px;
+  position: fixed;
+  top:10px; left:45%;
+  z-index: 4;
+}
+
+#camera{
+  filter: sepia(.3);
+  position: fixed;
+  top:40px; left:28%;
+  height: 150px;
+  z-index: 8;
+}
+#camera2{
+  filter: sepia(.3);
+  position: fixed;
+  top:45px; left:33%;
+  height: 100px;
+  z-index: 7;
+}
+#clock1 {
+  filter: sepia(.3);
+  position: fixed;
+  height: 160px;
+  top:30px; right: 1%;
+  z-index: -1;
+
+}
+
+#willow{
+  filter: saturate(2);
+  filter: sepia(.3);
+  position: fixed;
+  bottom: 60px;left:37%;
+  height:200px;
+  z-index: 10;
+}
+
+.links {
+  text-decoration: none;
+  font-family: "Lobster Two";
+  color: white;
+  font-size: 30px;
+  padding:0 10px;
+  background-color: rgba(105,67,33,.4);
+  border-radius: 30%;
+  box-shadow: 0 0 10px 3px rgba(105,67,33,.4);
+}
+
+nav {
+  background-image: url("images/wallpaper2.jpg");
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height:50px;
+  left: 0; right:0;
+  z-index: 15;
+}
