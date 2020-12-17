@@ -54,7 +54,7 @@ body {
 #hats  {
   position: fixed;
   height: 300px;
-  top:50px; left: 5%;
+  top:50px; left: 2%;
 }
 
 #dress {
@@ -116,7 +116,7 @@ body {
 
 #camera{
   position: fixed;
-  top:40px; left:28%;
+  top:40px; left:30%;
   height: 150px;
   z-index: 8;
 }
@@ -142,11 +142,52 @@ body {
   filter: contrast(1);
 }
 
+#stuff{
+  height: 150px;
+  position: fixed;
+  top:200px;left:65%;
+  z-index: 10;
+  box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
+
+}
+
+#shoes2 {
+  height: 150px;
+  position: fixed;
+  top:375px; left:75%;
+  z-index: 10;
+  box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
+}
+
+#glass {
+  position: fixed;
+  height: 125px;
+  top:465px; left: 25%;
+  z-index: 11;
+  box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
+}
+
+#hats2{
+  height: 125px;
+  position: fixed;
+  top: 100px;left:15%;
+  z-index: 10;
+  box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
+}
+
+#pins{
+  height: 125px;
+  position: fixed;
+  top:500px; left:50%;
+  z-index: 10;
+  box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
+}
+
 #willow{
   filter: saturate(2);
   filter: sepia(.3);
   position: fixed;
-  bottom: 60px;left:37%;
+  top:40%;left:37%;
   height:200px;
   z-index: 10;
 }
