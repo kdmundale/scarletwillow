@@ -178,7 +178,7 @@ body {
 #pins{
   height: 125px;
   position: fixed;
-  top:500px; left:50%;
+  top:480px; left:50%;
   z-index: 10;
   box-shadow: 0px 0px 20px 10px rgba(105,67,33,1);
 }
@@ -187,8 +187,8 @@ body {
   filter: saturate(2);
   filter: sepia(.3);
   position: fixed;
-  top:40%;left:37%;
-  height:200px;
+  top:30%;left:33%;
+  height:250px;
   z-index: 10;
 }
 
@@ -200,11 +200,16 @@ body {
   padding:0 10px;
   background-color: rgba(105,67,33,.4);
   border-radius: 30%;
-  box-shadow: 0 0 10px 3px rgba(105,67,33,.4);
+  box-shadow: 0 0 10px 7px rgba(105,67,33,.4);
 }
 
 nav {
-  background-image: url("images/wallpaper2.jpg");
+  background: repeating-linear-gradient(
+  rgb(240,206,92),
+  rgb(206,154,92) 10px,
+  rgb(105,67,33) 10px,
+  rgb(105,67,33) 20px
+);
   background-size: contain;
   display: flex;
   flex-direction: row;
@@ -212,7 +217,7 @@ nav {
   align-items: center;
   position: fixed;
   bottom: 0;
-  height:50px;
+  height:75px;
   left: 0; right:0;
   z-index: 15;
 }
