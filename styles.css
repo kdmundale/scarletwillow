@@ -16,11 +16,6 @@ body {
   z-index: -10;
 }
 
-#collage-main {
-  position: absolute;
-  display:block;
-}
-
 #chair {
   position: fixed;
   z-index: 7;
@@ -158,13 +153,7 @@ body {
 }
 
 nav {
-  background: repeating-linear-gradient(
-  rgb(240,206,92),
-  rgb(206,154,92) 10px,
-  rgb(105,67,33) 10px,
-  rgb(105,67,33) 20px
-);
-  background-size: contain;
+  background-color: rgba(105,67,33,.7);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -178,15 +167,10 @@ nav {
 @media only screen and (min-width: 320px){
 
   body{
-    height: 100vh;
   }
 
   nav {
-    top: 0;
-  }
-
-  #collage-main {
-    position: relative;
+    top:0;
   }
 
   #willow {
