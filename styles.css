@@ -24,7 +24,6 @@ body {
 }
 
 #chair {
-  filter: sepia(.3);
   position: fixed;
   top: 285px; right: 5%;
   height:300px;
@@ -32,7 +31,6 @@ body {
 }
 
 #harriet {
-  filter: sepia(.3);
   position: fixed;
   height: 400px;
   top:150px; right: 35%;
@@ -40,30 +38,26 @@ body {
 }
 
 #girl_a{
-  filter: sepia(.3);
   position: fixed;
   height:400px;
   top:265px; left: 17%;
   z-index: 10;
 }
 
-#glove_b{
-  filter: sepia(.3);
+#glove_b {
   position: fixed;
   height: 350px;
   top:70px; right:5%;
   z-index: 2;
 }
 
-#hats{
-  filter: sepia(.3);
+#hats  {
   position: fixed;
   height: 300px;
   top:50px; left: 5%;
 }
 
 #dress {
-  filter: sepia(.3);
   position: fixed;
   height: 300px;
   top:150px;
@@ -78,25 +72,20 @@ body {
 }
 
 #earring {
-  filter: sepia(.3);
   position:fixed;
   height:150px;
-  top: 500px;
-  right: 3%;
+  top: 500px;right: 3%;
   z-index: 8;
 }
 
 #dress_a{
-  filter: sepia(.3);
   position:fixed;
   height:350px;
-  top:350px;
-  left:63%;
+  top:350px;left:63%;
   z-index: 9;
 }
 
 #vinyl {
-  filter: sepia(.3);
   position: fixed;
   height:100px;
   top:350px; right:37%;
@@ -104,7 +93,6 @@ body {
 }
 
 #vase {
-  filter: sepia(.3);
   position: fixed;
   height: 300px;
   top: 300px;
@@ -113,7 +101,6 @@ body {
 }
 
 #plate{
-  filter: sepia(.3);
   position: fixed;
   top: 20px; left:60%;
   z-index: 1;
@@ -121,7 +108,6 @@ body {
 }
 
 #jimmi {
-  filter: sepia(.3);
   height: 200px;
   position: fixed;
   top:10px; left:45%;
@@ -129,26 +115,31 @@ body {
 }
 
 #camera{
-  filter: sepia(.3);
   position: fixed;
   top:40px; left:28%;
   height: 150px;
   z-index: 8;
 }
 #camera2{
-  filter: sepia(.3);
   position: fixed;
   top:45px; left:33%;
   height: 100px;
   z-index: 7;
 }
 #clock1 {
-  filter: sepia(.3);
   position: fixed;
   height: 160px;
   top:30px; right: 1%;
   z-index: -1;
 
+}
+.collage{
+  filter: sepia(.4);
+}
+
+.collage:hover{
+  filter: sepia(0);
+  filter: contrast(1);
 }
 
 #willow{
